@@ -1,0 +1,15 @@
+The questions that this project will raise are:
+
+How do we write packages that are easy to understand and simple to use out of the box?
+How to publish a package to NPM?
+
+Goals:
+
+ Include a list of commonly used methods to rewrite in ES2015.
+ Include a README that describes each method and provides an example of use.
+ Package is published with NPM.
+ Include tests for all methods described.
+ 
+Stretch Goal:
+
+ Showcases methods in a simple website app.
