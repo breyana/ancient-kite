@@ -9,9 +9,18 @@ Implement lodash methods:
 - subtract
 - multiply
 - divide
-- it
+- lt
 - isArray
 - stubArray
 - nth
 - size
 - toArray
+- noop
+Stretch:
+- chunk
+- toUpper
+- toLower
+-
+-
+-
+-
