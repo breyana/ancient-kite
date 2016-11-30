@@ -3,5 +3,15 @@
 
 Goals:
 Implement lodash methods:
-- .head
-- .add
+- head
+- add
+- array tail
+- subtract
+- multiply
+- divide
+- it
+- isArray
+- stubArray
+- nth
+- size
+- toArray
