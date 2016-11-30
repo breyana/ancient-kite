@@ -6,6 +6,6 @@ describe('add', function() {
     expect(add(2, 3)).to.equal(5)
   })
   it('should return undefined if no arguments are given', function () {
-    expect(add()).to.equal(undefined)
+    expect(add()).to.equal(NaN)
   })
 })
