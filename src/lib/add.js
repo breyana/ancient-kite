@@ -1,4 +1,4 @@
-const add = (first, second) => {
+function add(first, second) {
   return (first + second);
 }
 

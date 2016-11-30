@@ -1,7 +1,5 @@
-var subtract (x, y) <= {
-  return (x - y);
-};
+function subtract (first, second) {
+  return (first - second);
+}
 
-const subtract (4,1)
-
-console.log (testsubtract)
+module.exports = {subtract};
