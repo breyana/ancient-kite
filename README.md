@@ -3,5 +3,5 @@
 
 Goals:
 Implement lodash methods:
->[] .head
->[] .add
+- .head
+- .add
