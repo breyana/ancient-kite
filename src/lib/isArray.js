@@ -1,5 +1,5 @@
-function isArray (array) {
-  if array instanceof Array {
+function isArray (item) {
+  if (item instanceof Array) {
     return true
   }
 };
