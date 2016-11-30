@@ -3,3 +3,4 @@ function isArray (array) {
     return true
   }
 };
+module.exports = {isArray};

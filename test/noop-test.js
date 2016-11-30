@@ -3,6 +3,6 @@ const {expect} = require('chai')
 
 describe('Noop', function() {
   it('should always return false', function() {
-    expect(noop(3)).to.equal(undefined)
+    expect(noop(3)).to.be.undefined
   })
 })
