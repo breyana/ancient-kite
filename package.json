@@ -1,0 +1,23 @@
+{
+  "name": "ancient-kite",
+  "version": "1.0.0",
+  "description": "this is a Javascript Libary",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/breyana/ancient-kite.git"
+  },
+  "author": "Hannah, Breyana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/breyana/ancient-kite/issues"
+  },
+  "homepage": "https://github.com/breyana/ancient-kite#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
