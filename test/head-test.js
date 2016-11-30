@@ -1,4 +1,4 @@
-const {head} = require('..src/lib/head')
+const {head} = require('../src/lib/head')
 const {expect} = require('chai')
 
 describe('Head - find beginning of the array', function() {
