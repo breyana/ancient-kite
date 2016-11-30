@@ -1,7 +1,9 @@
 function lt (value,other) {
   if (value < other) {
-    return true
-  else {
+    return true;
+  } else if (value > other) {
+    return false
+  } else {
     return false
   }
 };
