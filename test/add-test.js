@@ -1,7 +1,7 @@
 const {add} = require('../src/lib/add');
 const {expect} = require('chai');
 
-describe('add', function()) {
+describe('add', function() {
   it('add numbers together', function() {
     expect(add(2, 3)).to.equal(5)
   })
