@@ -1,4 +1,4 @@
-import {add} from '../src/lib/add'
+const {add} from '../src/lib/add'
 const {expect} = require('chai');
 
 describe("add", () => {
