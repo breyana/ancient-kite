@@ -1,17 +1,9 @@
-function mean(array) {
-  let arrayTotal = sum()
+function mean(numbers) {
+  var total = 0;
+  for (var i=0; i<numbers.length;i++) {
+    total += numbers[i];
+  }
+  return (total/numbers.length);
+};
 
-
-  for
-
-
-  return (arrayTotal/array.length)
-}
-
-
-function sum(){
-for (var i=0; i<numbers.length;i++) {
-  
-}
-
-}
+module.exports = {mean};
