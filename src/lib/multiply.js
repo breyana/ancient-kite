@@ -1,5 +1,5 @@
 function multiply(first, second) {
-  return (first*second)
+  return (first * second);
 };
 
-module.export = {multiply};
+module.exports = {multiply};
