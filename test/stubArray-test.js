@@ -3,6 +3,6 @@ const {expect} = require('chai')
 
 describe('stubArray - returns empty arrays', function() {
   it('should return an empty array when called', function() {
-    expect(stubArray('randomthing')).to.equal('[]')
+    expect(stubArray('randomthing')).to.eql([])
   })
 })

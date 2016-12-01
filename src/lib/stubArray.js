@@ -1,7 +1,8 @@
 function stubArray(input) {
-  if (input === true){
-    return []
-  }
+  // console.log(input);
+  // if (input === true){
+    return new Array()
+  // }
 }
 
-module.exports = {stubArray};
+module.exports = {stubArray}
