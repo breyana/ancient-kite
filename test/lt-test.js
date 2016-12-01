@@ -19,6 +19,6 @@ describe('Less than', function() {
   })
 
   it('edge case? letter', function() {
-    expect(lt('a', 3)).to.equal(true)
+    expect(lt('a', 3)).to.equal(false)
   })
 })
