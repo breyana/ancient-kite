@@ -2,7 +2,7 @@
 # NPM Module for common JS utility functions
 
 Goals:
-Implement lodash methods:
+Implement 20 lodash methods:
 - head
 - add
 - array tail
@@ -16,11 +16,10 @@ Implement lodash methods:
 - size
 - toArray
 - noop
-Stretch:
 - chunk
 - toUpper
 - toLower
 - last
 - pull
 - intersection
-- 
+- drop
