@@ -1,15 +1,26 @@
 function chunk(array, chunklimiter) {
-  var givenarray = array;
-  var chunkedArray = [];
-  var tempArray = [];
-  while (givenarray.length > 0) {
-      for (i=0;i<chunklimiter;i++) {
-        tempArray.push(givenarray[0]);
-        givenarray.pop();
+  var papaArray = [];
+
+
+  while (array.length > 0) {
+      var babyArray = [];
+      for (i = 0; i < chunklimiter; i++) {
+        if( array.length === 0){
+          break
+        } else {
+          babyArray.push(array[0]);
+          array.splice(0,1);
+//          console.log('this is your baby',babyArray)
+        }
       }
-      chunkedArray.push(tempArray);
+//      console.log('array length is ',array.length)
+      papaArray.push(babyArray);
+//      console.log('Currently the Papa Array', papaArray)
   }
-  return chunkedArray;
+  return papaArray;
 }
+
+//chunk([1,2,3,4,0], 2)
+//[[1,2],[3,4],[0]]
 
 module.exports = {chunk}
