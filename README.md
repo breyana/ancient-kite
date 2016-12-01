@@ -20,7 +20,7 @@ Stretch:
 - chunk
 - toUpper
 - toLower
--
--
--
--
+- last
+- pull
+- intersection
+- 
