@@ -52,12 +52,6 @@
   lt(1, 3);
 // => true
   ```
-  1. **max**<br>
-    Returns max value in array.<br>
-    ```
-    _.max([4, 2, 8, 6]);
-// => 8
-    ```
 - **mean**<br>
   Calculates the mean in values; the total divided by the amount of numbers<br>
   ```
@@ -154,6 +148,11 @@
 _.reverse(array);  
 // => [3, 2, 1]  
   ```
+  1. **max**<br>
+    Returns max value in array.<br>
+    ```
+    _.max([4, 2, 8, 6]);
+// => 8
+    ```
 1. **isNumber**  
-1. **max**  
 1. **zip**
