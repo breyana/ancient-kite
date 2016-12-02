@@ -145,7 +145,14 @@
   _.initial([1, 2, 3]);
 // => [1, 2]
   ```
-1. **flip**  
+1. **reverse**  
+  Reverses the order of an array  
+  ```
+  var array = [1, 2, 3];  
+   
+_.reverse(array);  
+// => [3, 2, 1]  
+  ```
 1. **isNumber**  
 1. **subtract**  
 1. **zip**
