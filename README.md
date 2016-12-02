@@ -1,8 +1,8 @@
 # ancient-kite
 # NPM Module for common JS utility functions
 
-Goals:
-Implement 20 lodash methods:
+##Goals:
+###Implement 20 lodash methods:
 
 1. **add** <br>
   Adds values together<br>
@@ -113,7 +113,6 @@ Implement 20 lodash methods:
   toUpper('--foo-bar--');
 // => '--FOO-BAR--'
   ```
-  
 - **toArray**<br>
   Converts values into arrays<br>
   ```
@@ -121,3 +120,10 @@ Implement 20 lodash methods:
 // => ['a', 'b', 'c']
   ```
 
+###Stretch Goals:
+1. **compact** <br>
+  Removes false, undefined, NaN, 0, '' from arrays<br>
+  ```
+  compact([0, 1, false, 2, '', 3]);
+  // => [1, 2, 3]
+  ```
