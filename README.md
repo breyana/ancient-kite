@@ -155,4 +155,5 @@ _.reverse(array);
 // => 8
     ```
 1. **isNumber**  
-1. **zip**
+1. **zip**  
+1. **sum**  
