@@ -25,7 +25,7 @@ function intersectionOfTwoArrays(first, second) {
   }
 
   return keepers
-  console.log(return)
+  //console.log(return)
 }
 
 module.exports = {intersection}
