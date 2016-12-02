@@ -1,5 +1,5 @@
 function intersection(...inputs){
-  console.log("INPUTS::", inputs);
+  //console.log("INPUTS::", inputs);
   let result = inputs[ 0 ]
 
   for( let index = 1; index < inputs.length; index++ ) {

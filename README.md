@@ -128,8 +128,13 @@
   // => [1, 2, 3]
   ```
 1. **concat** <br>
-  Creates a new array that concatenates new values into the original array 
+  Creates a new array that concatenates new values into the original array <br>
   `var array = [1];`<br>
   ```
   var other = _.concat(array, 2, [3], [[4]]); // => [1, 2, 3, [4]]
   ```
+1. **initial** <br>
+1. **flip**  
+1. **isNumber**  
+1. **subtract**  
+1. **zip**
