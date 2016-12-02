@@ -10,12 +10,6 @@
   add(6, 4);
   // => 10
   ```
-1. **tail**<br>
-  Gets all but the first element of array.<br>
-  ```
-  tail([1, 2, 3]);
-  // => [2, 3]
-  ```
 1. **chunk**<br>
   Takes an array and creates multiple arrays from that with the given size<br>
   ```
@@ -58,6 +52,12 @@
   lt(1, 3);
 // => true
   ```
+  1. **max**<br>
+    Returns max value in array.<br>
+    ```
+    _.max([4, 2, 8, 6]);
+// => 8
+    ```
 - **mean**<br>
   Calculates the mean in values; the total divided by the amount of numbers<br>
   ```
@@ -155,5 +155,5 @@ _.reverse(array);
 // => [3, 2, 1]  
   ```
 1. **isNumber**  
-1. **subtract**  
+1. **max**  
 1. **zip**
