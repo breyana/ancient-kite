@@ -134,8 +134,7 @@
   // => [1, 2, 3]
   ```
 1. **concat** <br>
-Creates a new array that concatenates new values into the original array
-<br>
+Creates a new array that concatenates new values into the original array  
   `var array = [1];`<br>
   ```
   var other = _.concat(array, 2, [3], [[4]]); // => [1, 2, 3, [4]]
