@@ -10,6 +10,12 @@
   add(6, 4);
   // => 10
   ```
+1. **tail**<br>
+  Gets all but the first element of array.<br>
+  ```
+  tail([1, 2, 3]);
+  // => [2, 3]
+  ```
 1. **chunk**<br>
   Takes an array and creates multiple arrays from that with the given size<br>
   ```
@@ -128,7 +134,7 @@
   // => [1, 2, 3]
   ```
 1. **concat** <br>
-  Creates a new array that concatenates new values into the original array 
+  Creates a new array that concatenates new values into the original array
   `var array = [1];`<br>
   ```
   var other = _.concat(array, 2, [3], [[4]]); // => [1, 2, 3, [4]]
