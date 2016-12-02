@@ -135,12 +135,13 @@
   ```
 1. **concat** <br>
   Creates a new array that concatenates new values into the original array  
-  `var array = [1];`<br>
+
   ```
+  `var array = [1];`  
   var other = _.concat(array, 2, [3], [[4]]); // => [1, 2, 3, [4]]
   ```
 1. **initial** <br>
-  Grabs everything except the last element in an array
+  Grabs everything except the last element in an array  
   ```
   _.initial([1, 2, 3]);
 // => [1, 2]
@@ -149,7 +150,7 @@
   Reverses the order of an array  
   ```
   var array = [1, 2, 3];  
-   
+
 _.reverse(array);  
 // => [3, 2, 1]  
   ```
