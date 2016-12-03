@@ -148,12 +148,12 @@
 _.reverse(array);  
 // => [3, 2, 1]  
   ```
-  1. **max**<br>
-    Returns max value in array.<br>
-    ```
-    _.max([4, 2, 8, 6]);
+1. **max**<br>
+  Returns max value in array.<br>
+  ```
+  _.max([4, 2, 8, 6]);
 // => 8
-    ```
+  ```
 1. **isNumber**  
 1. **zip**  
 1. **sum**  
