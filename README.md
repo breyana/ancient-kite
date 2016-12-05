@@ -154,6 +154,10 @@ _.reverse(array);
   _.max([4, 2, 8, 6]);
 // => 8
   ```
+  1. **sum**  
+  Computes the sum of the values in array.
+  ```
+  _.sum([4, 2, 8, 6]);
+  // => 20
+  ```
 1. **isNumber**  
-1. **zip**  
-1. **sum**  
